@@ -1,0 +1,14 @@
+# Terraform
+infra/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/*.tfplan
+infra/override.tf
+infra/override.tf.json
+
+# Build outputs
+build/
+
+# .NET
+src/**/bin/
+src/**/obj/
